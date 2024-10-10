@@ -54,9 +54,9 @@ jobs:
 
       - name: Grant Permissions to gradlew
         run:
-          cd demo 
-          chmod +x gradlew
+          cd demo; 
+          chmod +x gradlew;
       - name: Test
         run:
-          cd demo
-          ./gradlew test --tests "*"
+          cd demo;
+          ./gradlew test --tests "*";
